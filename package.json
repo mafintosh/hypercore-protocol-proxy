@@ -1,5 +1,5 @@
 {
-  "name": "hypercore-proxy-protocol",
+  "name": "hypercore-protocol-proxy",
   "version": "0.0.0",
   "description": "A module that allows you to proxy a single hypercore replication stream to multiple peers",
   "main": "index.js",
@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mafintosh/hypercore-proxy-protocol.git"
+    "url": "https://github.com/mafintosh/hypercore-protocol-proxy.git"
   },
   "author": "Mathias Buus (@mafintosh)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mafintosh/hypercore-proxy-protocol/issues"
+    "url": "https://github.com/mafintosh/hypercore-protocol-proxy/issues"
   },
-  "homepage": "https://github.com/mafintosh/hypercore-proxy-protocol"
+  "homepage": "https://github.com/mafintosh/hypercore-protocol-proxy"
 }

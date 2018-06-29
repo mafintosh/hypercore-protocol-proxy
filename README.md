@@ -1,9 +1,9 @@
-# hypercore-proxy-protocol
+# hypercore-protocol-proxy
 
 A module that allows you to proxy a single hypercore replication stream to multiple peers.
 
 ```
-npm install hypercore-proxy-protocol
+npm install hypercore-protocol-proxy
 ```
 
 Useful if you want to implement a hypercore proxy gateway that replicates with many peers behind the scene, for privacy or connectivity reasons.
@@ -11,7 +11,7 @@ Useful if you want to implement a hypercore proxy gateway that replicates with m
 ## Usage
 
 ``` js
-const createProxyStream = require('hypercore-proxy-protocol')
+const createProxyStream = require('hypercore-protocol-proxy')
 const net = require('net')
 const pump = require('pump')
 
