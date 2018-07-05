@@ -50,8 +50,9 @@ function createProxyStream (key, opts) {
     }
   }
 
-  function proxy (otherStream) {
-    const otherProtocol = protocol(opts)
+  function proxy (otherStream, proxyOpts) {
+    if (!proxyOpts) proxyOpts = {}
+    const otherProtocol = proxyOpts.stream || protocol(opts)
     const otherFeed = otherProtocol.feed(key)
 
     proxies.push(otherFeed)
